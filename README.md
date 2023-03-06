@@ -75,7 +75,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
-<a href="https://heroku.com/deploy?template=https://github.com/sip-userbot/Pyrochiy-userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/sip-userbot/ShicyUbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 # Updates & Support
