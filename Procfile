@@ -1,0 +1,1 @@
+shicy: bash start
