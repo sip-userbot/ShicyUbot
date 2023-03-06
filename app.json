@@ -1,0 +1,58 @@
+{
+    "name": "⋆ Shicy Ubot ⋆",
+    "description": "[ShicyUbot] Userbot Hanya Untuk Bersenang - Senang",
+    "logo": "https://telegra.ph/file/83f249f03c3145c9089b3.jpg",
+    "keywords": ["telegram", "userbot", "ShicyUbot", "pyrogram", "modular", "python"],
+    "repository": "https://github.com/AyiinXd/AyiinUbot",
+    "stack": "heroku-22",
+    "env": {
+      "API_ID": {
+        "description": "Dapatkan API KEY di Grup » https://t.me/ShicyyXCode » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Dapatkan API Hash di Grup » https://t.me/ShicyyXCode » Lalu ketik /get api atau di web my.telegram.org",
+        "required": true
+      },
+       "STRING_1": {
+        "description": "Dapatkan String Session di Grup » https://t.me/ShicyyXCode » Lalu ketik /get string",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "SIlahkan buat bot anda di https://t.me/BotFather dan masukkan Bot Tokennya",
+        "required": true
+      },
+      "MONGO_URI": {
+        "description": "Dapatkan Link MongoDB di Grup » https://t.me/ShicyyXCode » Lalu ketik /get link",
+        "required": true
+      },
+      "LOG_CHAT": {
+        "description": "Buat Group Log Publik Anda dan masukkan https://t.me/MissRose_bot lalu ketik /id",
+        "value": "-100", 
+        "required": true
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
+        "required": true
+    },
+
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      },
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      }
+    ],
+    "formation": {
+      "shicy": {
+        "quantity": 1,
+        "size": "eco"
+      }
+    }
+  }
+}
